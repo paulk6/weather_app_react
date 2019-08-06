@@ -16,7 +16,7 @@ class App extends Component {
         <div className="container">
           <Switch>
             <Route exact path='/' render={() => <Weather />} />
-            // () => is function closure, calls function right away so it isn't trying to render the function itself, but the result of the function
+            {/*}() => is function closure, calls function right away so it isn't trying to render the function itself, but the result of the function*/}
             <Route exact path='/racer' render={() => <h1>Render the racer component here</h1>} />
           </Switch>
         </div>
