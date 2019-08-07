@@ -46,6 +46,7 @@ class Weather extends Component {
     let data = await response.json();
 
     this.setState({ data })
+    console.log(data);
   }
 
 
